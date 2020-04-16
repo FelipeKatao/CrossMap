@@ -3,12 +3,6 @@ from flask import jsonify
 import json
 app = Flask(__name__)
 
-listofPath={
-    "idMap":1,
-    "local":"Map urban",
-    "cords":"@-22.7764685,-43.4152719,15z"
-}
-
 @app.route("/")
 def index():
     with open("bakcend\ListMap.json") as listmap:
