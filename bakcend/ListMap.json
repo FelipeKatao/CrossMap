@@ -1,0 +1,19 @@
+[
+    {
+        "id":"0",
+        "local":"street",
+        "cords":"000X453"
+    }
+,
+{
+     "id":"2",
+     "local":"beach",
+     "cords":"00045X123"   
+}
+,
+{
+     "id":"4",
+     "local":"beach",
+     "cords":"00045X123"   
+}
+  ] 
