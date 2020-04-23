@@ -1,27 +1,55 @@
-body{
-    background-color: #88faa1;
-}
+
 #barsStyle{
-    background-color: white;
-    height: 10vh;
-    width: 203vh;
+    background-color: #45b45f;;
+    margin-top: -3vh;
+    top:0;
+    left: 0;
+    height: 16vh;
+    width: 100%;
+    position: fixed;
+    -webkit-box-shadow: 0px 8px 20px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 8px 20px -1px rgba(0,0,0,0.35);
+    box-shadow: 0px 8px 20px -1px rgba(0,0,0,0.35);
+    z-index: 90;
 }
 nav ul li{
-    padding-top: 20px;
+    padding-top: 5vh;
     float:left;
     text-decoration: none;
     list-style: none;
-    margin-left: 5vh;
+    margin-left: 15vh;
     font-family: Arial, Helvetica, sans-serif;
-    color:#45b45f;
+    color:white;
 }
-#placeDash{
+.content{
     display: flex;
-    height: 40vh;
-    width: 100%;
-    background-color: #45b45f;
-    border-radius: 2vh;
-    margin-top: 10vh;
-    margin-left: -2vh;
-    position: absolute;
+    flex-direction: row;
+    margin: auto;
+    margin-top: -70vh;
+    width: 190vh;
+    z-index: 3;
+}
+.content-aticle{
+    height: 60vh;
+    width: 50vh;
+    margin-left: 10vh;
+}
+.content-aticle-left{
+    height: 60vh;
+    width: 90vh;
+    margin-left: auto;
+    margin-left: 19vh;
+
+}
+.article-title{
+    color: #45b45f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+.article-content{
+    padding-top: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 2.4vh;
 }

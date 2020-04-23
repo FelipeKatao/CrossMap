@@ -11,5 +11,10 @@ function GET_METHOD(){
 }
 function POST_METHOD(){
   //Criar o metodo de POST
+  fetch("http://127.0.0.1:5000/create/01/OceanBlue/546467X9403",{
+    method: "POST",
+    body: "{id:0}"
+  })
 }
 GET_METHOD()
+POST_METHOD()
